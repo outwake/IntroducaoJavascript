@@ -2,9 +2,17 @@
 const leia= require("readline-sync");
 
 let salario= leia.questionFloat("Qual é o salario:");
-
 let abono= leia.questionFloat("Qual é o abono:");
 
 let novoSalario = Number(salario)+ Number(abono);
 
-console.log ("O novo salario é", novoSalario)
+
+//console.log ("O novo salario é ", novoSalario.toFixed(2))
+//toofixed fixar casas decimais
+
+console.log("Salario Liquido atualizado:", 
+    new Intl.NumberFormat('pt-BR',{
+        style: 'currency',
+        currency: 'BRL'
+    }) .format(novoSalario)
+)

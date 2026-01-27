@@ -23,6 +23,8 @@ const bonus = 0.05;
 console.log ("Tipo da variavel nome é:", typeof(nome))
 console.log ("Tipo da variavel nome é:", typeof(num1))
 
+
+
 console.log("Salario Liquido", 
     new Intl.NumberFormat('pt-BR',{
         style: 'currency',
