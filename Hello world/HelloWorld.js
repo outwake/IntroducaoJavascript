@@ -10,5 +10,6 @@ const data= "26/01/2026";
 
 console.log(mensagem , data);
 
-let num1= leia("Digite o primeiro numero:");
-let num2= leia("Digite o segundo numero:");
+let num1= leia.question("Digite o primeiro numero:");
+let num2= leia.question("Digite o segundo numero:");
+console.log(num1 , num2);
