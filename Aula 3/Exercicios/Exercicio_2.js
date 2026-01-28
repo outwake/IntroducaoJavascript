@@ -19,7 +19,7 @@ else if(n1<=0 && n1 % 2 === 0){
     console.log(`O numero ${n1} é par e negativo`)
 }
 
-else if(n1<=0 && n1 % 2 !== 0){
+else if(n1<0 && n1 % 2 !== 0){
 
     console.log(`O numero ${n1} é impar e negativo`)
 }
